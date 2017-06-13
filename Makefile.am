@@ -1,6 +1,6 @@
 # Sources
 bin_PROGRAMS = beebattle
-beebattle_CPPFLAGS = -Wall -Werror -DPKGDATADIR='"$(pkgdatadir)"'
+beebattle_CPPFLAGS = -Wall -DPKGDATADIR='"$(pkgdatadir)"'
 beebattle_SOURCES = \
   src/beebattle.c
 
